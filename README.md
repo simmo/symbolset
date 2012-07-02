@@ -2,7 +2,7 @@
 
 Sass helpers for Symbolset.
 
-# Usage
+## Usage
 
     @import 'symbolset';
     
