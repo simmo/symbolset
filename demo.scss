@@ -1,0 +1,6 @@
+@import 'symbolset';
+
+// Example
+.retweet:before {
+  content: ss-icon(retweet);
+}

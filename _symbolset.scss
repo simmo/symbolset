@@ -1,0 +1,283 @@
+@function ss-icon($icon) {
+  @if $icon == cursor {
+    @return '\E001';
+  } @else if $icon == crosshair {
+    @return '\2316';
+  } @else if $icon == search {
+    @return '\D83D\DD0E';
+  } @else if $icon == view {
+    @return '\D83D\DC40';
+  } @else if $icon == attach {
+    @return '\D83D\DCCE';
+  } @else if $icon == link {
+    @return '\D83D\DD17';
+  } @else if $icon == move {
+    @return '\E070';
+  } @else if $icon == write {
+    @return '\270E';
+  } @else if $icon == writingdisabled {
+    @return '\E071';
+  } @else if $icon == erase {
+    @return '\2710';
+  } @else if $icon == compose {
+    @return '\D83D\DCDD';
+  } @else if $icon == lock {
+    @return '\D83D\DD12';
+  } @else if $icon == unlock {
+    @return '\D83D\DD13';
+  } @else if $icon == key {
+    @return '\D83D\DD11';
+  } @else if $icon == backspace {
+    @return '\232B';
+  } @else if $icon == ban {
+    @return '\D83D\DEAB';
+  } @else if $icon == trash {
+    @return '\E0D0';
+  } @else if $icon == target {
+    @return '\25CE';
+  } @else if $icon == tag {
+    @return '\E100';
+  } @else if $icon == bookmark {
+    @return '\D83D\DD16';
+  } @else if $icon == flag {
+    @return '\2691';
+  } @else if $icon == like {
+    @return '\D83D\DC4D';
+  } @else if $icon == dislike {
+    @return '\D83D\DC4E';
+  } @else if $icon == heart {
+    @return '\2665';
+  } @else if $icon == halfheart {
+    @return '\E1A0';
+  } @else if $icon == star {
+    @return '\22C6';
+  } @else if $icon == halfstar {
+    @return '\E1A1';
+  } @else if $icon == sample {
+    @return '\E200';
+  } @else if $icon == crop {
+    @return '\E201';
+  } @else if $icon == layers {
+    @return '\E202';
+  } @else if $icon == phone {
+    @return '\D83D\DCDE';
+  } @else if $icon == phonedisabled {
+    @return '\E300';
+  } @else if $icon == rss {
+    @return '\E310';
+  } @else if $icon == facetime {
+    @return '\E320';
+  } @else if $icon == reply {
+    @return '\21A9';
+  } @else if $icon == mail {
+    @return '\2709';
+  } @else if $icon == inbox {
+    @return '\D83D\DCE5';
+  } @else if $icon == chat {
+    @return '\D83D\DCAC';
+  } @else if $icon == user {
+    @return '\D83D\DC64';
+  } @else if $icon == femaleuser {
+    @return '\D83D\DC67';
+  } @else if $icon == cart {
+    @return '\E500';
+  } @else if $icon == creditcard {
+    @return '\D83D\DCB3';
+  } @else if $icon == barchart {
+    @return '\D83D\DCCA';
+  } @else if $icon == piechart {
+    @return '\E570';
+  } @else if $icon == box {
+    @return '\D83D\DCE6';
+  } @else if $icon == home {
+    @return '\2302';
+  } @else if $icon == globe {
+    @return '\D83C\DF0E';
+  } @else if $icon == navigate {
+    @return '\E670';
+  } @else if $icon == compass {
+    @return '\E671';
+  } @else if $icon == signpost {
+    @return '\E672';
+  } @else if $icon == location {
+    @return '\E6D0';
+  } @else if $icon == pin {
+    @return '\D83D\DCCD';
+  } @else if $icon == music {
+    @return '\266B';
+  } @else if $icon == mic {
+    @return '\D83C\DFA4';
+  } @else if $icon == volume {
+    @return '\D83D\DD08';
+  } @else if $icon == volumelow {
+    @return '\D83D\DD09';
+  } @else if $icon == volumehigh {
+    @return '\D83D\DD0A';
+  } @else if $icon == airplay {
+    @return '\E800';
+  } @else if $icon == camera {
+    @return '\D83D\DCF7';
+  } @else if $icon == picture {
+    @return '\D83C\DF04';
+  } @else if $icon == video {
+    @return '\D83D\DCF9';
+  } @else if $icon == play {
+    @return '\25B6';
+  } @else if $icon == pause {
+    @return '\E8A0';
+  } @else if $icon == stop {
+    @return '\25A0';
+  } @else if $icon == record {
+    @return '\25CF';
+  } @else if $icon == rewind {
+    @return '\23EA';
+  } @else if $icon == fastforward {
+    @return '\23E9';
+  } @else if $icon == skipback {
+    @return '\23EE';
+  } @else if $icon == skipforward {
+    @return '\23ED';
+  } @else if $icon == eject {
+    @return '\23CF';
+  } @else if $icon == repeat {
+    @return '\D83D\DD01';
+  } @else if $icon == replay {
+    @return '\21BA';
+  } @else if $icon == shuffle {
+    @return '\D83D\DD00';
+  } @else if $icon == notebook {
+    @return '\D83D\DCD3';
+  } @else if $icon == grid {
+    @return '\E9A0';
+  } @else if $icon == rows {
+    @return '\E9A1';
+  } @else if $icon == desktop {
+    @return '\D83D\DCBB';
+  } @else if $icon == laptop {
+    @return '\EA00';
+  } @else if $icon == tablet {
+    @return '\EA01';
+  } @else if $icon == cell {
+    @return '\D83D\DCF1';
+  } @else if $icon == battery {
+    @return '\D83D\DD0B';
+  } @else if $icon == batteryhigh {
+    @return '\EA10';
+  } @else if $icon == batterymedium {
+    @return '\EA11';
+  } @else if $icon == batterylow {
+    @return '\EA12';
+  } @else if $icon == batteryempty {
+    @return '\EA13';
+  } @else if $icon == clouddownload {
+    @return '\EB00';
+  } @else if $icon == download {
+    @return '\EB01';
+  } @else if $icon == cloudupload {
+    @return '\EB40';
+  } @else if $icon == upload {
+    @return '\EB41';
+  } @else if $icon == fork {
+    @return '\EB80';
+  } @else if $icon == merge {
+    @return '\EB81';
+  } @else if $icon == refresh {
+    @return '\21BB';
+  } @else if $icon == sync {
+    @return '\EB82';
+  } @else if $icon == loading {
+    @return '\EB83';
+  } @else if $icon == wifi {
+    @return '\EB84';
+  } @else if $icon == connection {
+    @return '\EB85';
+  } @else if $icon == file {
+    @return '\D83D\DCC4';
+  } @else if $icon == folder {
+    @return '\D83D\DCC1';
+  } @else if $icon == quote {
+    @return '\201C';
+  } @else if $icon == text {
+    @return '\ED00';
+  } @else if $icon == font {
+    @return '\ED01';
+  } @else if $icon == list {
+    @return '\ED50';
+  } @else if $icon == layout {
+    @return '\EDA0';
+  } @else if $icon == action {
+    @return '\EE00';
+  } @else if $icon == expand {
+    @return '\2922';
+  } @else if $icon == contract {
+    @return '\EE01';
+  } @else if $icon == info {
+    @return '\2139';
+  } @else if $icon == alert {
+    @return '\26A0';
+  } @else if $icon == caution {
+    @return '\26D4';
+  } @else if $icon == plus {
+    @return '\002B';
+  } @else if $icon == hyphen {
+    @return '\002D';
+  } @else if $icon == dropdown {
+    @return '\25BE';
+  } @else if $icon == check {
+    @return '\2713';
+  } @else if $icon == delete {
+    @return '\2421';
+  } @else if $icon == settings {
+    @return '\2699';
+  } @else if $icon == dashboard {
+    @return '\F000';
+  } @else if $icon == notifications {
+    @return '\D83D\DD14';
+  } @else if $icon == notificationsdisabled {
+    @return '\D83D\DD15';
+  } @else if $icon == clock {
+    @return '\23F2';
+  } @else if $icon == stopwatch {
+    @return '\23F1';
+  } @else if $icon == calendar {
+    @return '\D83D\DCC6';
+  } @else if $icon == calendaradd {
+    @return '\F070';
+  } @else if $icon == calendarremove {
+    @return '\F071';
+  } @else if $icon == calendarcheck {
+    @return '\F072';
+  } @else if $icon == briefcase {
+    @return '\D83D\DCBC';
+  } @else if $icon == cloud {
+    @return '\2601';
+  } @else if $icon == navigateup {
+    @return '\F500';
+  } @else if $icon == navigateright {
+    @return '\25BB';
+  } @else if $icon == navigatedown {
+    @return '\F501';
+  } @else if $icon == navigateleft {
+    @return '\25C5';
+  } @else if $icon == up {
+    @return '\2B06';
+  } @else if $icon == upright {
+    @return '\2B08';
+  } @else if $icon == right {
+    @return '\27A1';
+  } @else if $icon == downright {
+    @return '\2B0A';
+  } @else if $icon == down {
+    @return '\2B07';
+  } @else if $icon == downleft {
+    @return '\2B0B';
+  } @else if $icon == left {
+    @return '\2B05';
+  } @else if $icon == upleft {
+    @return '\2B09';
+  } @else if $icon == retweet {
+    @return '\F600';
+  } @else {
+    @return '#{$icon}';
+  }
+}
