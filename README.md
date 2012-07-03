@@ -7,5 +7,5 @@ Sass helpers for Symbolset.
     @import 'symbolset';
     
     .retweet-button:before {
-      content: ss-icon(rewteet);
+      content: ss-icon(retweet);
     }
