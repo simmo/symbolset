@@ -81,6 +81,8 @@
     @return '👤';
   } @else if $icon == femaleuser {
     @return '👧';
+  } @else if $icon == users {
+    @return '👥';
   } @else if $icon == cart {
     @return '';
   } @else if $icon == creditcard {
@@ -103,8 +105,12 @@
     @return '';
   } @else if $icon == location {
     @return '';
+  } @else if $icon == map {
+    @return '';
   } @else if $icon == pin {
     @return '📍';
+  } @else if $icon == database {
+    @return '';
   } @else if $icon == music {
     @return '♫';
   } @else if $icon == mic {
@@ -153,6 +159,8 @@
     @return '';
   } @else if $icon == rows {
     @return '';
+  } @else if $icon == columns {
+    @return '';
   } @else if $icon == desktop {
     @return '💻';
   } @else if $icon == laptop {
@@ -203,6 +211,10 @@
     @return '';
   } @else if $icon == font {
     @return '';
+  } @else if $icon == print {
+    @return '⎙';
+  } @else if $icon == fax {
+    @return '📠';
   } @else if $icon == list {
     @return '';
   } @else if $icon == layout {
@@ -213,6 +225,8 @@
     @return '⤢';
   } @else if $icon == contract {
     @return '';
+  } @else if $icon == help {
+    @return '❓';
   } @else if $icon == info {
     @return 'ℹ';
   } @else if $icon == alert {
