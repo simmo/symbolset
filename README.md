@@ -2,6 +2,8 @@
 
 Sass helpers for Symbolset.
 
+*Note: You will need to have the Symbolset font(s). [Get them from Symbolset](https://symbolset.com/).*
+
 ## Usage
 
     @import 'symbolset';
