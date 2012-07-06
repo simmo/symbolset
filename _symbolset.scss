@@ -297,3 +297,49 @@
     @return '#{$icon}';
   }
 }
+
+@function ss-social-icon($icon) {
+  @if $icon == facebook {
+    @return ''
+  } @else if $icon == twitter {
+    @return '';
+  } @else if $icon == linkedin {
+    @return '';
+  } @else if $icon == googleplus {
+    @return '';
+  } @else if $icon == tumblr {
+    @return '';
+  } @else if $icon == wordpress {
+    @return '';
+  } @else if $icon == blogger {
+    @return '';
+  } @else if $icon == posterous {
+    @return '';
+  } @else if $icon == youtube {
+    @return '';
+  } @else if $icon == vimeo {
+    @return '';
+  } @else if $icon == flickr {
+    @return '';
+  } @else if $icon == instagram {
+    @return '';
+  } @else if $icon == pinterest {
+    @return '';
+  } @else if $icon == dribbble {
+    @return '';
+  } @else if $icon == behance {
+    @return '';
+  } @else if $icon == github {
+    @return '';
+  } @else if $icon == paypal {
+    @return '';
+  } @else if $icon == foursquare {
+    @return '';
+  } @else if $icon == skype {
+    @return '';
+  } @else if $icon == mail {
+    @return '✉';
+  } @else {
+    @return '#{$icon}';
+  }
+}
