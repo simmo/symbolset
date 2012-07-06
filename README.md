@@ -6,6 +6,10 @@ Sass helpers for Symbolset.
 
     @import 'symbolset';
     
-    .retweet-button:before {
-      content: ss-icon(retweet);
+    .retweet:before {
+      content: ss-standard-icon(retweet);
+    }
+    
+    .twitter:before {
+      content: ss-social-icon(twitter);
     }
