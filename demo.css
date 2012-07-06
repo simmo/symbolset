@@ -1,6 +1,4 @@
-@import 'symbolset';
-
-// Example
+@charset "UTF-8";
 .ss-social-icon {
   font-family: 'SS Social';
   font-weight: normal;
@@ -13,8 +11,7 @@
   -moz-font-feature-settings: "liga", "dlig";
   -ms-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
-}
+  font-feature-settings: "liga", "dlig"; }
 
 .ss-social-circle-icon {
   font-family: 'SS Social';
@@ -28,8 +25,7 @@
   -moz-font-feature-settings: "liga", "dlig";
   -ms-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
-}
+  font-feature-settings: "liga", "dlig"; }
 
 .ss-standard-icon {
   font-family: 'SS Standard';
@@ -43,13 +39,10 @@
   -moz-font-feature-settings: "liga", "dlig";
   -ms-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
-}
+  font-feature-settings: "liga", "dlig"; }
 
 .retweet:before {
-  content: ss-standard-icon(retweet);
-}
+  content: ""; }
 
 .twitter:before {
-  content: ss-social-icon(twitter);
-}
+  content: ""; }
