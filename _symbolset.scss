@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@function ss-icon($icon) {
+@function ss-standard-icon($icon) {
   @if $icon == cursor {
     @return '';
   } @else if $icon == crosshair {
