@@ -7,6 +7,10 @@
     @return '⌖';
   } @else if $icon == search {
     @return '🔎';
+  } @else if $icon == zoom {
+    @return '';
+  } @else if $icon == zoomout {
+    @return '';
   } @else if $icon == view {
     @return '👀';
   } @else if $icon == attach {
@@ -61,6 +65,10 @@
     @return '';
   } @else if $icon == layers {
     @return '';
+  } @else if $icon == fill {
+    @return '';
+  } @else if $icon == stroke {
+    @return '';
   } @else if $icon == phone {
     @return '📞';
   } @else if $icon == phonedisabled {
@@ -71,12 +79,18 @@
     @return '';
   } @else if $icon == reply {
     @return '↩';
+  } @else if $icon == send {
+  @return '';
   } @else if $icon == mail {
     @return '✉';
   } @else if $icon == inbox {
     @return '📥';
   } @else if $icon == chat {
     @return '💬';
+  } @else if $icon == ellipsischat {
+    @return '';
+  } @else if $icon == ellipsis {
+    @return '…';
   } @else if $icon == user {
     @return '👤';
   } @else if $icon == femaleuser {
@@ -87,6 +101,8 @@
     @return '';
   } @else if $icon == creditcard {
     @return '💳';
+  } @else if $icon == cost {
+    @return '💲';
   } @else if $icon == barchart {
     @return '📊';
   } @else if $icon == piechart {
@@ -95,6 +111,10 @@
     @return '📦';
   } @else if $icon == home {
     @return '⌂';
+  } @else if $icon == buildings {
+    @return '🏢';
+  } @else if $icon == warehouse {
+    @return '';
   } @else if $icon == globe {
     @return '🌎';
   } @else if $icon == navigate {
@@ -111,6 +131,8 @@
     @return '📍';
   } @else if $icon == database {
     @return '';
+  } @else if $icon == harddrive {
+    @return '';
   } @else if $icon == music {
     @return '♫';
   } @else if $icon == mic {
@@ -153,14 +175,24 @@
     @return '↺';
   } @else if $icon == shuffle {
     @return '🔀';
+  } @else if $icon == book {
+    @return '📕';
+  } @else if $icon == openbook {
+    @return '📖';
   } @else if $icon == notebook {
     @return '📓';
+  } @else if $icon == newspaper {
+    @return '📰';
   } @else if $icon == grid {
     @return '';
   } @else if $icon == rows {
     @return '';
   } @else if $icon == columns {
     @return '';
+  } @else if $icon == thumbnails {
+    @return '';
+  } @else if $icon == filter {
+    @return '';
   } @else if $icon == desktop {
     @return '💻';
   } @else if $icon == laptop {
@@ -179,6 +211,8 @@
     @return '';
   } @else if $icon == batteryempty {
     @return '';
+  } @else if $icon == lightbulb {
+    @return '💡';
   } @else if $icon == clouddownload {
     @return '';
   } @else if $icon == download {
@@ -191,6 +225,8 @@
     @return '';
   } @else if $icon == merge {
     @return '';
+  } @else if $icon == transfer {
+    @return '⇆';
   } @else if $icon == refresh {
     @return '↻';
   } @else if $icon == sync {
@@ -221,6 +257,8 @@
     @return '';
   } @else if $icon == action {
     @return '';
+  } @else if $icon == redirect {
+    @return '↪';
   } @else if $icon == expand {
     @return '⤢';
   } @else if $icon == contract {
@@ -233,12 +271,12 @@
     @return '⚠';
   } @else if $icon == caution {
     @return '⛔';
+  } @else if $icon == logout {
+    @return '';
   } @else if $icon == plus {
     @return '+';
   } @else if $icon == hyphen {
     @return '-';
-  } @else if $icon == dropdown {
-    @return '▾';
   } @else if $icon == check {
     @return '✓';
   } @else if $icon == delete {
@@ -263,18 +301,16 @@
     @return '';
   } @else if $icon == calendarcheck {
     @return '';
+  } @else if $icon == calendardelete {
+    @return '';
   } @else if $icon == briefcase {
     @return '💼';
   } @else if $icon == cloud {
     @return '☁';
-  } @else if $icon == navigateup {
-    @return '';
-  } @else if $icon == navigateright {
-    @return '▻';
-  } @else if $icon == navigatedown {
-    @return '';
-  } @else if $icon == navigateleft {
-    @return '◅';
+  } @else if $icon == drop {
+    @return '💧';
+  } @else if $icon == flask {
+    @return '';
   } @else if $icon == up {
     @return '⬆';
   } @else if $icon == upright {
@@ -291,6 +327,22 @@
     @return '⬅';
   } @else if $icon == upleft {
     @return '⬉';
+  } @else if $icon == navigateup {
+    @return '';
+  } @else if $icon == navigateright {
+    @return '▻';
+  } @else if $icon == navigatedown {
+    @return '';
+  } @else if $icon == navigateleft {
+    @return '◅';
+  } @else if $icon == directup {
+    @return '▴';
+  } @else if $icon == directright {
+    @return '▹';
+  } @else if $icon == dropdown {
+    @return '▾';
+  } @else if $icon == directleft {
+    @return '◃';
   } @else if $icon == retweet {
     @return '';
   } @else {
